@@ -1,0 +1,29 @@
+{
+  "name": "pcat",
+  "version": "1.0.0",
+  "description": "Photo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tahacagrimen/PCAT.git"
+  },
+  "author": "Taha Cagri Men",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tahacagrimen/PCAT/issues"
+  },
+  "homepage": "https://github.com/tahacagrimen/PCAT#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.6"
+  }
+}
